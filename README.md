@@ -1,5 +1,33 @@
 # React Side Effects Lab
 
+This project demonstrates how to handle **side effects** in React using the `useEffect` hook. The app fetches and displays a random **programming joke** when the page loads, and lets the user fetch a new joke with a button click.
+
+---
+
+## ✅ Features
+
+- Fetches a programming joke **on initial page load** using `useEffect`
+- Fetches a **new joke** when the user clicks **Get a New Joke**
+- Displays **Loading...** while waiting for the API response
+- Handles failed requests gracefully by showing an error message instead of crashing
+- Clean UI structure:
+  - One button for fetching a new joke
+  - One paragraph element that displays either the joke or loading/error state
+
+---
+
+## 🧠 What is a “Side Effect” in React?
+
+A **side effect** is any operation that interacts with something outside React’s rendering process—like fetching data from an API, starting timers, or subscribing to events. This lab focuses on **data fetching** with `useEffect`.
+
+---
+
+## 🔗 API Used
+
+**Endpoint:**
+
+# React Side Effects Lab
+
 ## Overview
 This lab demonstrates how to handle **side effects** in React using the `useEffect` hook. The app fetches and displays a random **programming joke** when the page loads and allows users to fetch a new joke with a button click.
 
